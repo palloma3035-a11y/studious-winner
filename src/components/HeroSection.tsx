@@ -72,15 +72,6 @@ export const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
-          <a
-            href="#prayer-times"
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-gold transition-colors"
-          >
-            <ChevronDown className="w-5 h-5" />
-          </a>
-        </div>
       </div>
     </section>
   );
